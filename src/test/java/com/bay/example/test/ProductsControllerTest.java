@@ -1,22 +1,5 @@
 package com.bay.example.test;
 
-/**
- * Uses JsonPath: http://goo.gl/nwXpb, Hamcrest and MockMVC
- */
-
-
-/**
- * @Class Gstr3G2bController This is controller class for handling all the G2B
- *        API requests such as saveGSTR3File,getGSTR3File etc.. There is an AOP
- *        mapped to this controller(end point) which validates all the header
- *        fields before processing further. Different request handling methods
- *        have been defined and mapped through end point url.
- * 
- * @author Kavitha Saradha
- * @version v0.1
- * @since 2017-01-13
- * 
- */
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.bay.example.Application;
 import com.bay.example.api.rest.ProductsController;
